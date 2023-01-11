@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="s1">
+            <h1 class="titre1">Choisissez votre camp</h1>
+            <p class="p1">Renseigner un chiffre de 1 a 5</p>
+            <input type="text" name="choix" id="choix">
+        </section>
+        <!-- <audio controls="controls" preload="auto" autoplay>
+            <source src= "26 Halo.mp3">
+         </audio> -->
+        <div class="contain">
+            <div class="error">
+                <span id="error"></span>
+            </div>
+                <div class="gauche">
+                    <img src="./img/John-117.webp" class="photog">
+                    <button class="btnspartan" id="btng">Spartan</button>
+                </div>
+                <div class="droite">
+                    <img src="./img/covenant.png" class="photod">
+                    <button class="btnconvenant" id="btnd" >Covenant</button><br/>
+                </div>  
+            <div class="div2">
+                <div id="citspartan" class="divcit"></div>
+                <div id="citcovenant" class="divcit"></div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
